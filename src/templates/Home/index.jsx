@@ -38,7 +38,6 @@ export default class Home extends Component {
   handleChange = (event) => {
     const { value } = event.currentTarget;
     this.setState( { ...this.state, searchValue: value });
-
   }
 
   render() {
